@@ -343,7 +343,7 @@ export default class DatePicker extends PureComponent<IProps,IState>{
                 }
                 {this.state.pickerData.length > 0 ?
                     <CommonPicker
-                        style={{width: deviceWidth}}
+                        style={{width: '100%'}}
                         pickerWrapperStyle={this.props.pickerWrapperStyle}
                         showHeader={false}
                         pickerData={this.state.pickerData}
